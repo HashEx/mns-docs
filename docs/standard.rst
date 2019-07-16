@@ -50,18 +50,21 @@ Our standard for addresses resolving is a DNS record::
 Example
 --------
 
-1. Domain _testdomain.mnt_ registration. Data field is::
+1. Domain _testdomain.mnt_ registration. Data field is
+::
 
   R:testdomain.mnt
   
 Transaction [HASH]().
 
-2. Adding A record on testdomain.mnt to IP. Data field is::
+2. Adding A record on testdomain.mnt to IP. Data field is
+::
   
   U:testdomain.mnt:@:A:IP::
 Transaction [HASH]().
 
-3. Adding A record on subdomain sd.testdomain.mnt to IP. Data field is::
+3. Adding A record on subdomain sd.testdomain.mnt to IP. Data field is
+::
   
   U:testdomain.mnt:sd:A:IP::
 Transaction [HASH]().
@@ -70,7 +73,8 @@ or the same
 
   U:testdomain.mnt:sd.testdomain.mnt.:A:IP::
 
-4. Changing A record on subdomain sd.testdomain.mnt from IP to IP. Data field is::
+4. Changing A record on subdomain sd.testdomain.mnt from IP to IP. Data field is
+::
   
   U:testdomain.mnt:sd:A:IP::
   D:testdomain.mnt:NONCE
@@ -81,7 +85,8 @@ or the same, but shorter with *nonce_to_remove* option
   U:testdomain.mnt:sd:A:IP::NONCE
 Transaction [HASH]().
 
-5. Add cryptoaddress, delegation public key and coin ticker record on testdomain.mnt. Data filed is::
+5. Add cryptoaddress, delegation public key and coin ticker record on testdomain.mnt. Data filed is
+::
 
   U:testdomain.mnt:sd:TXT:v=mns1 A=Mx D=Mp C=COIN::
 Transaction [HASH]().
