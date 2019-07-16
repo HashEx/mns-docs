@@ -8,8 +8,7 @@ Domain Registration
 
 To register domain you need to send a transaction with data field in format:
 ::
-R:domain
-.. highlight:: none
+    R:domain
 
 This is a simple example::
 
