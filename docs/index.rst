@@ -12,7 +12,6 @@ Contents:
    :maxdepth: 2
    :glob:
 
-   LALALA
    Overview<readme>
    mns
    dexzones
