@@ -10,7 +10,7 @@ To register domain you need to send a transaction with data field in format:
 ```
 R:domain
 ```
-**domain** - your domain in format __domain.zone__ .
+**domain** - your domain in format *domain.zone*.
 
 Domain Record Update
 --------
@@ -18,7 +18,7 @@ Domain Record Update
 To update domain record you need to send a transaction with data field in format:
 > U:domain:host:type:arg1:arg2[:nonce_to_remove]
 
-**domain** - your domain in format _domain.zone_.
+**domain** - your domain in format *domain.zone*.
 **host** - your host (@ or subdomain) for the record.
 **type** - record type (A, TXT, MX, etc).
 **arg1** - first argument of the record.
