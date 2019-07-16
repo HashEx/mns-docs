@@ -7,9 +7,9 @@ So we created a helpful feature which connects your domain (classical or decentr
 MNS Standard
 --------
 Our standard for addresses resolving is a DNS record
-````
+``
 TXT v=mns1 A=Mx000 D=Mp000 C=COIN
-````
+``
 
 **mns1** - standard name and version.
 **A** - your address.
