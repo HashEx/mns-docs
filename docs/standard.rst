@@ -53,6 +53,7 @@ Example
 1. Domain _testdomain.mnt_ registration. Data field is::
 
   R:testdomain.mnt
+  
 Transaction [HASH]().
 
 2. Adding A record on testdomain.mnt to IP. Data field is::
