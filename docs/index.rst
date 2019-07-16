@@ -14,7 +14,9 @@ Contents:
 
    overview
    mns
-   *
+   dexzones
+   standard
+   resolver
    authors
 
 
