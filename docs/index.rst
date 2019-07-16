@@ -12,7 +12,8 @@ Contents:
    :maxdepth: 2
    :glob:
 
-   readme
+   overview
+   mns
    *
    authors
 
