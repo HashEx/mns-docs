@@ -1,7 +1,7 @@
 Minter Name System
 ========
 
-MNS like a classical domain name system (`RFC-1034 <https://tools.ietf.org/html/rfc1034>`_, [RFC-1035](https://tools.ietf.org/html/rfc1035)) is supported by name servers. All decentralized zones data is stored in [Minter Network](https://minter.network) blockchain. MNS has interoperability with classical DNS, so you could use our name servers for both zone types: classical and decentralized.
+MNS like a classical domain name system (`RFC-1034 <https://tools.ietf.org/html/rfc1034>`_, `RFC-1035 <https://tools.ietf.org/html/rfc1035>`_) is supported by name servers. All decentralized zones data is stored in `Minter Network <https://minter.network>`_ blockchain. MNS has interoperability with classical DNS, so you could use our name servers for both zone types: classical and decentralized.
 
 Zone Support
 --------
