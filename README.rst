@@ -1,41 +1,29 @@
-Template
+Minter Name System
 ========
 
-$project will solve your problem of where to start with documentation,
-by providing a basic explanation of how to do it easily.
-
-Look how easy it is to use:
-
-    import project
-    # Get your stuff done
-    project.do_stuff()
+Minter Name System (MNS) is a Distributed Domain Name System by HashEx powered by Minter.
 
 Features
 --------
 
-- Be awesome
-- Make things faster
-
-Installation
-------------
-
-Install $project by running:
-
-    install project
+- Distribued and Secure Name System
+- Interoperation with DNS
+- Cryptoaddresses Resolver
+- Decentralized Zones Support
 
 Contribute
 ----------
 
-- Issue Tracker: github.com/$project/$project/issues
-- Source Code: github.com/$project/$project
+- Issue Tracker: 
+- Source Code: 
 
 Support
 -------
 
 If you are having issues, please let us know.
-We have a mailing list located at: project@google-groups.com
+We have a mailing list located at: mns@hashex.org
 
 License
 -------
 
-The project is licensed under the BSD license.
+The project is licensed under the GPLv3 license.
