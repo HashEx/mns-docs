@@ -22,7 +22,7 @@ To update domain record you need to send a transaction with data field in format
 | **host** - your host (@ or subdomain) for the record.
 | **type** - record type (A, TXT, MX, etc).
 | **arg1** - first argument of the record.
-| **arg2** - first argument of the record.
+| **arg2** - second argument of the record.
 | **nonce_to_remove** - optional, nonce of transaction with records update which need to be removed. See example below.
 
 Domain Record Delete
