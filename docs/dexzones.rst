@@ -5,6 +5,7 @@ Zone Support
 --------
 
 MNS supports decentralized name zones:
+
 - .bip
 - .mnt
 
