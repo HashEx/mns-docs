@@ -11,6 +11,11 @@ To register domain you need to send a transaction with data field in format:
 R:domain
 .. highlight:: none
 
+This is a simple example::
+
+    import math
+    print 'import done'
+
 **domain** - your domain in format *domain.zone*.
 
 Domain Record Update
