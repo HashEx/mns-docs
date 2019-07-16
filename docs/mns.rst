@@ -12,6 +12,7 @@ Usage
 --------
 
 Please configure your tcp/ip settings to use name server from the list:
+
 - 138.201.209.67
 
 Decentralization
