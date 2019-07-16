@@ -1,7 +1,7 @@
 Minter Name System
 ========
 
-Minter Name System (MNS) is a Distributed Domain Name System by HashEx powered by Minter.
+Minter Name System (MNS) is a Distributed Domain Name System by `HashEx <https://hashex.org>`_ powered by `Minter Network <https://minter.network>`_.
 
 Features
 --------
