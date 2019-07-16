@@ -7,10 +7,10 @@ Domain Registration
 --------
 
 To register domain you need to send a transaction with data field in format:
-
-> R:domain
-
-**domain** - your domain in format _domain.zone_.
+```
+R:domain
+```
+**domain** - your domain in format __domain.zone__ .
 
 Domain Record Update
 --------
