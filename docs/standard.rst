@@ -6,7 +6,7 @@ For blockchain integration into name system we created the MNS Standard.
 Domain Registration
 --------
 
-To register domain you need to send a transaction with data field in format:::
+To register domain you need to send a transaction with data field in format::
     R:domain
 **domain** - your domain in format *domain.zone*.
 
