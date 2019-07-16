@@ -7,6 +7,7 @@ Domain Registration
 --------
 
 To register domain you need to send a transaction with data field in format:
+
 > R:domain
 
 **domain** - your domain in format _domain.zone_.
