@@ -23,4 +23,4 @@ We use our [MNS Standard]() for registration and zone updates. You could create 
 Premium Domains Registration
 --------
 
-Premium domain is a domain with length equal and less than 6 symbols, e.g. __hashex.mnt__. Rules and prices for Premium domains will be posted later.
+Premium domain is a domain with length equal and less than 6 symbols, e.g. *hashex.mnt*. Rules and prices for Premium domains will be posted later.
