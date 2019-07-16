@@ -6,15 +6,14 @@ So we created a helpful feature which connects your domain (classical or decentr
 
 MNS Standard
 --------
-Our standard for addresses resolving is a DNS record
-```
-TXT v=mns1 A=Mx000 D=Mp000 C=COIN
-```
+Our standard for addresses resolving is a DNS record::
 
-**mns1** - standard name and version.
-**A** - your address.
-**D** - your node's public key for delegation.
-**C** - your coin's ticker.
+  TXT v=mns1 A=Mx000 D=Mp000 C=COIN
+
+| **mns1** - standard name and version.
+| **A** - your address.
+| **D** - your node's public key for delegation.
+| **C** - your coin's ticker.
 
 Usage
 -------
@@ -23,16 +22,15 @@ To resolve cryptoaddress from DNS you could use our REST API located at
 
 Example
 -------
-Request
-```
-GET
-```
-Reply
-```
-JSON
-```
+Request::
 
-**A** - your address.
-**D** - your node's public key for delegation.
-**C** - your coin's ticker.
-**sign** - reply's ECDSA signature by our node. You should check it in case of man-in-the-middle attack. Node's public key is **Mp**. 
+  GET
+
+Reply::
+
+  JSON
+
+| **A** - your address.
+| **D** - your node's public key for delegation.
+| **C** - your coin's ticker.
+| **sign** - reply's ECDSA signature by our node. You should check it in case of man-in-the-middle attack. Node's public key is **Mp**. 
