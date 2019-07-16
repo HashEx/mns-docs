@@ -16,7 +16,7 @@ Domain Record Update
 
 To update domain record you need to send a transaction with data field in format::
 
-U:domain:host:type:arg1:arg2[:nonce_to_remove]
+  U:domain:host:type:arg1:arg2[:nonce_to_remove]
 
 **domain** - your domain in format *domain.zone*.
 **host** - your host (@ or subdomain) for the record.
