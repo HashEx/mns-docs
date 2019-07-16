@@ -7,8 +7,9 @@ Domain Registration
 --------
 
 To register domain you need to send a transaction with data field in format:
-.. code-block:: RST
+::
 R:domain
+.. highlight:: none
 
 **domain** - your domain in format *domain.zone*.
 
