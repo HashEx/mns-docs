@@ -1,8 +1,7 @@
 Cryptoaddresses Resolver
 ========
 
-It's too complicated to remember your crypto address like Mx0000. When you provide somebody an address or qr code, you could easily get a mistake. 
-So we created a helpful feature which connects your domain (classical or decentralized) with an address, delegation private key and coin ticker.
+It's too complicated to remember your crypto address like Mx3b22ca335b9f55af452d8c4b117ee06578505282. When you provide somebody an address or QR code, you could easily get a mistake. So we created a helpful feature which connects your domain (classical or decentralized) with an address, delegation private key and coin ticker.
 
 MNS Standard
 --------
