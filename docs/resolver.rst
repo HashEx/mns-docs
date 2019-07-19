@@ -18,17 +18,22 @@ Our standard for addresses resolving is a DNS record::
 Usage
 -------
 
-To resolve cryptoaddress from DNS you could use our REST API located at 
+To resolve cryptoaddress from DNS you could use our REST API located at https://mns.hashex.org/resolve
 
 Example
 -------
 Request::
 
-  GET
+  GET https://mns.hashex.org/resolve?address=dm.hashex.org
 
 Reply::
 
-  JSON
+  {"address":"Mx96d8076e6342c5afc71162830c6b35fb1ed1d007",
+   "delegate":"Mp0000000000000000",
+   "ticker":"TESTCOIN",
+   "signature":   {"r":"439017adc3b350998fcbf5ae0ca3a3968ca07dbdd1d2ae2afd755568fb9506e3",
+                   "s":"311441ec3c8e4fdcb2f3bcdf103d8f008a4017da0b670a575aef4b090205ccdb",
+                   "v":27}}
 
 | **A** - your address.
 | **D** - your node's public key for delegation.
