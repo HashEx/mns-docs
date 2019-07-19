@@ -35,7 +35,7 @@ Reply::
                 "s":"311441ec3c8e4fdcb2f3bcdf103d8f008a4017da0b670a575aef4b090205ccdb",
                 "v":27}}
 
-| **address** - your address.
-| **delegate** - your node's public key for delegation.
-| **ticker** - your coin's ticker.
+| **address** - Minter's address.
+| **delegate** - Minternode's public key for delegation.
+| **ticker** - Minter coin's ticker.
 | **signature** - reply's ECDSA signature by our node. You should check it in case of man-in-the-middle attack. Node's public key is **Mp**. 
