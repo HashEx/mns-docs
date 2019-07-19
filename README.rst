@@ -6,9 +6,9 @@ Minter Name System (MNS) is a Distributed Domain Name System by `HashEx <https:/
 Features
 --------
 
-- Distribued and Secure Name System
+- Distributed and Secure Name System
 - Interoperation with DNS
-- Cryptoaddresses Resolver
+- Cryptoaddress Resolver
 - Decentralized Zones Support
 
 Contribute
