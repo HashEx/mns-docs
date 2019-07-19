@@ -21,7 +21,12 @@ Domains with length equal or less than 6 symbols are called Premium. See next se
 To register a new zone you need to send a transaction to **Mx** address with correct funds amount and with specified data field. 
 We use our `MNS Standard <https://mns-docs.readthedocs.io/en/latest/standard.html>`_ for registration and zone updates. You could create data field manually or use our `web service <https://mns.hashex.org>`_ for this.
 
-Premium Domains Registration
+Premium Domain Registration
 --------
 
 Premium domain is a domain with length equal or less than 6 symbols, e.g. *hashex.mnt*. Rules and prices for Premium domains will be posted later.
+
+Domain Zone Updates
+--------
+
+Zone update costs 1 BIP to avoid DDoS on the service. To update a zone you need to send a transaction to **Mx** address with correct funds amount and with specified data field. We use our `MNS Standard <https://mns-docs.readthedocs.io/en/latest/standard.html>`_ for registration and zone updates. You could create data field manually or use our `web service <https://mns.hashex.org>`_ for this.
