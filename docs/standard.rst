@@ -50,12 +50,12 @@ Our standard for addresses resolving is a DNS record::
 Example
 --------
 
-1. Domain _testdomain.mnt_ registration. Data field is
+1. Domain *testdomain.mnt* registration. Data field is
 ::
 
   R:testdomain.mnt
   
-Transaction [HASH]().
+Transaction <`Mt891731866bcb4c69eb59f4af38dc8714fcda6ba9592bcbee55a2228d1f663898 https://explorer.minter.network/transactions/Mt891731866bcb4c69eb59f4af38dc8714fcda6ba9592bcbee55a2228d1f663898>`_.
 
 2. Adding A record on testdomain.mnt to IP. Data field is
 ::
