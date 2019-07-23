@@ -58,36 +58,36 @@ Example
   R:testdomain.mnt
 Transaction `Mt891731866bcb4c69eb59f4af38dc8714fcda6ba9592bcbee55a2228d1f663898 <https://explorer.minter.network/transactions/Mt891731866bcb4c69eb59f4af38dc8714fcda6ba9592bcbee55a2228d1f663898>`_.
 
-2. Adding A record on testdomain.mnt to IP. Data field is
+2. Adding A record on *testdomain.mnt* to *127.0.0.1*. Data field is
 ::
   
   U:testdomain.mnt:@:A:IP::
-Transaction [HASH]().
+Transaction `Mt582de00b80bef2373ef608bc091cbb98f724e1a194af608675725af64ec592f5 <https://explorer.minter.network/transactions/Mt582de00b80bef2373ef608bc091cbb98f724e1a194af608675725af64ec592f5>`_.
 
-3. Adding A record on subdomain sd.testdomain.mnt to IP. Data field is
+3. Adding A record on subdomain *sd.testdomain.mnt* to *172.0.0.1*. Data field is
 ::
   
   U:testdomain.mnt:sd:A:IP::
-Transaction [HASH]().
+Transaction `Mt8eb2fdf2ce122629036d1f94a12a4fc699cec0595bc574ce37b260c0c66e7003 <https://explorer.minter.network/transactions/Mt8eb2fdf2ce122629036d1f94a12a4fc699cec0595bc574ce37b260c0c66e7003>`_.
 or the same
 ::
 
   U:testdomain.mnt:sd.testdomain.mnt.:A:IP::
 
-4. Changing A record on subdomain sd.testdomain.mnt from IP to IP. Data field is
+4. Changing A record on subdomain *sd.testdomain.mnt* from *172.0.0.1* to *162.0.0.1*. Data field is
 ::
   
   U:testdomain.mnt:sd:A:IP::
   D:testdomain.mnt:NONCE
-Transaction [HASH]() and [HASH]().
+Transaction `Mt8eb2fdf2ce122629036d1f94a12a4fc699cec0595bc574ce37b260c0c66e7003 <https://explorer.minter.network/transactions/Mt8eb2fdf2ce122629036d1f94a12a4fc699cec0595bc574ce37b260c0c66e7003>`_ and `Mt7df2147f45f718eb5eb0042c23146532db7e274a14ca4610c9eac380daa052fb <https://explorer.minter.network/transactions/Mt7df2147f45f718eb5eb0042c23146532db7e274a14ca4610c9eac380daa052fb>`_.
 or the same, but shorter with *nonce_to_remove* option
 ::
 
-  U:testdomain.mnt:sd:A:IP::NONCE
-Transaction [HASH]().
+  U:testdomain.mnt:sd:A:IP::NONCE_TO_REMOVE
+Transaction `Mtb15b72583aab117e96021ce704ac858e19fb6d8da307acbcfc772fa818021c3b <https://explorer.minter.network/transactions/Mtb15b72583aab117e96021ce704ac858e19fb6d8da307acbcfc772fa818021c3b>`_.
 
 5. Add cryptoaddress, delegation public key and coin ticker record on testdomain.mnt. Data filed is
 ::
 
-  U:testdomain.mnt:sd:TXT:v=mns1 A=Mx D=Mp C=COIN::
-Transaction [HASH]().
+  U:testdomain.mnt:@:TXT:v=mns1 A=Mx D=Mp C=COIN::
+Transaction `Mtdc23e5bc9988ec95cce289571edac658d24bfd4f718b312450b810121c037ffa <https://explorer.minter.network/transactions/Mtdc23e5bc9988ec95cce289571edac658d24bfd4f718b312450b810121c037ffa>`_.
