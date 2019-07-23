@@ -25,6 +25,8 @@ To update domain record you need to send a transaction with data field in format
 | **arg2** - second argument of the record.
 | **nonce_to_remove** - optional, nonce of transaction with records update which need to be removed. See example below.
 
+**NB. Now acceptable only A, AAAA and TXT types.**
+
 Domain Record Delete
 --------
 
@@ -54,8 +56,7 @@ Example
 ::
 
   R:testdomain.mnt
-  
-Transaction <`Mt891731866bcb4c69eb59f4af38dc8714fcda6ba9592bcbee55a2228d1f663898 https://explorer.minter.network/transactions/Mt891731866bcb4c69eb59f4af38dc8714fcda6ba9592bcbee55a2228d1f663898>`_.
+Transaction `Mt891731866bcb4c69eb59f4af38dc8714fcda6ba9592bcbee55a2228d1f663898 <https://explorer.minter.network/transactions/Mt891731866bcb4c69eb59f4af38dc8714fcda6ba9592bcbee55a2228d1f663898>`_.
 
 2. Adding A record on testdomain.mnt to IP. Data field is
 ::
