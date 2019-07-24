@@ -4,9 +4,9 @@ Quick Start Guide
 Why do I need it?
 --------
 
-First, MNS provides you an ability to buy a domain in **.mnt** zone. You can buy any domain, for example, *mydomain.mnt*. Domain will be registred to your minter address via blockchain. You can use it like classic domain to provide access to your website or receive emails.
+First, MNS provides you an ability to buy a domain in **.mnt** zone. You can buy any domain, for example, **mydomain.mnt**. Domain will be registred to your minter address via blockchain. You can use it like classic domain to provide access to your website or receive emails.
 
-Second, MNS provides you an ability to associate your cryptoaddress like *Mx3b22ca335b9f55af452d8c4b117ee06578505282* to any domain, for example, *mydomain.mnt* or *mydomain.com*, 
+Second, MNS provides you an ability to associate your cryptoaddress like **Mx3b22ca335b9f55af452d8c4b117ee06578505282** to any domain, for example, **mydomain.mnt** or **mydomain.com**, 
 so you could receive funds to pretty domain address, not ugly cryptoaddress.
 
 How to buy .mnt domain?
@@ -36,10 +36,9 @@ How to update .mnt domain?
 How to use pretty address insted of ugly cryptoaddress?
 --------
 
-For pretty address you can use **any domain: classic or .mnt**. If you are an owner of classic domain, steps are the same.
+For pretty address you can use **any domain classic or .mnt**. If you are an owner of classic domain, steps are the same.
 
-1. You need to add TXT record to your domain, host @, with data
-::
+1. You need to add TXT record to your domain, host @, with data::
 
   v=mns1 A=YOUR_ADDRESS [D=YOUR_PUB_KEY C=YOUR_COIN]
 
