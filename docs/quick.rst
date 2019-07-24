@@ -47,5 +47,11 @@ For pretty address you can use **any domain: classic or .mnt**. If you are an ow
 | **D** - your node's public key for delegation, optional.
 | **C** - your coin's ticker, optional.
 
+
 2. After changes are applied, go to https://mns.hashex.org/resolver and try to resolve your address.
 3. Congratulations, you have a pretty address!
+
+How to browse .mnt zone?
+--------
+
+You need to configure your NS setting in network adapter configuration to use one of our NS servers. Here is a `list <https://mns-docs.readthedocs.io/en/latest/mns.html#usage>`_.
