@@ -38,7 +38,8 @@ How to use pretty address insted of ugly cryptoaddress?
 
 For pretty address you can use **any domain: classic or .mnt**. If you are an owner of classic domain, steps are the same.
 
-1. You need to add TXT record to your domain, host @, with data::
+1. You need to add TXT record to your domain, host @, with data
+::
 
   v=mns1 A=YOUR_ADDRESS [D=YOUR_PUB_KEY C=YOUR_COIN]
 | **mns1** - standard name and version.
