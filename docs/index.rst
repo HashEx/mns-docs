@@ -13,6 +13,7 @@ Contents:
    :glob:
 
    Overview<readme>
+   quick
    mns
    dexzones
    standard
