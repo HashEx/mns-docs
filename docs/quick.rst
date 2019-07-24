@@ -38,12 +38,13 @@ How to use pretty address insted of ugly cryptoaddress?
 
 For pretty address you can use **any domain classic or .mnt**. If you are an owner of classic domain, steps are the same.
 
-1. You need to add TXT record to your domain, host @, with data::
+1. You need to add TXT record to your domain, host @, with data
+::
 
   v=mns1 A=YOUR_ADDRESS [D=YOUR_PUB_KEY C=YOUR_COIN]
 
-#. After changes are applied, go to https://mns.hashex.org/resolver and try to resolve your address.
-#. Congratulations, you have a pretty address!
+2. After changes are applied, go to https://mns.hashex.org/resolver and try to resolve your address.
+3. Congratulations, you have a pretty address!
 
 How to browse .mnt zone?
 --------
