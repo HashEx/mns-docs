@@ -41,7 +41,7 @@ For pretty address you can use **any domain classic or .mnt**. If you are an own
 1. You need to add TXT record to your domain, host @, with data
 ::
 
-  v=mns1 A=YOUR_ADDRESS [D=YOUR_PUB_KEY C=YOUR_COIN]
+  v=mns1 A=YOUR_ADDRESS [P=YOUR_PUB_KEY C=YOUR_COIN]
 
 2. After changes are applied, go to https://mns.hashex.org/resolver and try to resolve your address.
 3. Congratulations, you have a pretty address!
