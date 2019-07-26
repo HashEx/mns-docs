@@ -42,11 +42,11 @@ Cryptoaddress Resolve
 
 Our standard for addresses resolving is a DNS record::
 
-  TXT v=mns1 A=Mx000 D=Mp000 C=COIN
+  TXT v=mns1 A=Mx000 P=Mp000 C=COIN
 
 | **mns1** - standard name and version.
 | **A** - your address.
-| **D** - your node's public key for delegation.
+| **P** - your node's public key for delegation.
 | **C** - your coin's ticker.
 
 Example
