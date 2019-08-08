@@ -88,4 +88,4 @@ Example
 ::
 
   U:testdomain.mnt:@:TXT:v=mns1 A=Mx P=Mp C=COIN::
-`Transaction <https://explorer.minter.network/transactions/Mtdc23e5bc9988ec95cce289571edac658d24bfd4f718b312450b810121c037ffa>`_.
+`Transaction <https://explorer.minter.network/transactions/Mt2578a7743b54d1edf92972c5b1a45a18403a25132bd68b0bbe8e81d2be05500f>`_.
