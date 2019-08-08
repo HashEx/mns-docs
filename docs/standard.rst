@@ -87,5 +87,5 @@ Example
 5. Add cryptoaddress, delegation public key and coin ticker record on testdomain.mnt. Data filed is
 ::
 
-  U:testdomain.mnt:@:TXT:v=mns1 A=Mx D=Mp C=COIN::
+  U:testdomain.mnt:@:TXT:v=mns1 A=Mx P=Mp C=COIN::
 `Transaction <https://explorer.minter.network/transactions/Mtdc23e5bc9988ec95cce289571edac658d24bfd4f718b312450b810121c037ffa>`_.
