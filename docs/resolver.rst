@@ -28,7 +28,7 @@ Request::
 Reply::
 
   {"address":"Mx2958c39ea42b2868218f6058794a772178bfa88b",
- "publickey":"Mp0d29a83e54653a1d5f34e561e0135f1e81cbcae152f1f327ab36857a7e32de4c",
+   "publickey":"Mp0d29a83e54653a1d5f34e561e0135f1e81cbcae152f1f327ab36857a7e32de4c",
    "ticker":"TESTCOIN",
    "signature":{"r":"439017adc3b350998fcbf5ae0ca3a3968ca07dbdd1d2ae2afd755568fb9506e3",
                 "s":"311441ec3c8e4fdcb2f3bcdf103d8f008a4017da0b670a575aef4b090205ccdb",
