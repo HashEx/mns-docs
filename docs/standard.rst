@@ -37,7 +37,7 @@ To delete domain record you need to send a transaction with data field in format
 | **domain** - your domain in format *domain.zone*.
 | **nonce_to_remove** - nonce of transaction with records update which need to be removed. See example below.
 
-Cryptoaddress Resolve
+Pretty Address Resolve
 --------
 
 Our standard for addresses resolving is a DNS record::
@@ -48,6 +48,15 @@ Our standard for addresses resolving is a DNS record::
 | **A** - your address.
 | **P** - your node's public key for delegation.
 | **C** - your coin's ticker.
+
+Pretty Address Verification
+--------
+
+To verify your domain pretty address you need to send a transaction with data field in format::
+
+  V:domain
+
+| **domain** - your domain in format *domain.zone*.
 
 Example
 --------
